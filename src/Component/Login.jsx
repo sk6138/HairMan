@@ -48,7 +48,7 @@ const Login = () => {
   };
 
   return (
-    <div style={{ maxWidth: "400px", margin: "auto", padding: "20px" }}>
+    <div id="login" style={{ maxWidth: "400px", margin: "auto", padding: "20px" }}>
       <h2>OTP Login</h2>
 
       {/* reCAPTCHA container */}
