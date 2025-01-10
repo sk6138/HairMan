@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { auth, initRecaptcha } from "./firebase";
+import { auth, initRecaptcha } from "../firebase";
 import { signInWithPhoneNumber } from "firebase/auth";
 
 const Login = () => {
