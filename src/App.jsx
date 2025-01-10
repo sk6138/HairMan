@@ -8,6 +8,7 @@ import Service from './Component/Service';
 import Trending from './Component/Trending';
 import Contact from './Component/Contact';
 import Footer from './Component/Footer';
+import Login from './Component/Login';
 import './App.css'
 
 
@@ -27,6 +28,7 @@ AOS.init({
       <Trending/>
       <Contact/>
       <Footer/>
+      <Login/>
     </div>
   )
 }
